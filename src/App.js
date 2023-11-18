@@ -8,7 +8,7 @@ import passwordIcon from './lock-Icon.png';
 import { PersistFormikValues } from 'formik-persist-values';
 
 
-const SignupSchema = Yup.Cobject().shape({
+const SignupSchema = Yup.object().shape({
   email: Yup.string()
     .max(25, 'email слишком длинный!')
     .email('неверный email')
