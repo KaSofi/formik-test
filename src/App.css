@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(bgg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+.SignIn {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Form {
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 30px;
+  background-color: rgb(251, 252, 253, 0.4);
+  box-shadow: 0px 0px 100px 0px rgb(76, 75, 75);
+}
+input {
+  background-color: hsl(209, 42%, 68%, 0.1);
+  border: none;
+  border-bottom: 1px solid rgb(253, 253, 254);
+  outline: white;
+  margin: 20px;
+  width: 300px;
+  font-size: larger;
+  color: rgb(5, 5, 85);
+  margin-left: -20px;
+  height: 40px;
+  
+}
+input.error-bottom {
+  border: 2px solid  rgb(230, 48, 11);
+  height: 50px;
+}
+button {
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  padding: 10px;
+  color: rgb(250, 250, 251);
+  font-size: larger;
+  background-color: #0d3c67;
+  height: 50px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #fdba12;
+  color: #05213c;
+}
+input::placeholder {
+  color: hsl(0, 0%, 100%, 0.5);
+  top: 20px;
+}
+.sign-error {
+  color: rgb(230, 48, 11);
+  letter-spacing: 1px;
+  height: 30px;
+  font-weight: 200;
+  align-self: flex-end;
+  width: 300px;
+  position: absolute;
+  margin-bottom: -10px;
+  text-align: center;
+}
+h1 {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.input-position {
+  display: flex;
+  justify-content: end;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+width: 35px;
+height: 30px;
+position: absolute;
+margin-top: 30px;
+margin-right: -20px;
+}
+.checkbox-style {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
 }
