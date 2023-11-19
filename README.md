@@ -1,4 +1,5 @@
-https://vercel.com/kasofis-projects/formik-test/93kMr72w7trHKFXjrdhMmArpdTLH
+https://formik-test-2d0wvinyi-kasofis-projects.vercel.app/
+
 
 Домашнее задание №1
 Выполнено на React с использованием библиотеки Formik + валидация на Yup.
